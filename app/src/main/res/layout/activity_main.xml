@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#31a59f">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/kelo"
+        android:id="@+id/kelo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_kelo"
+        android:layout_below="@+id/kelo"
+        android:text="@string/keloa"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/gon"
+        android:layout_below="@+id/tv_kelo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_20170822_wa0005"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_gon"
+        android:layout_below="@+id/gon"
+        android:layout_centerHorizontal="true"
+        android:text="@string/gon"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>
